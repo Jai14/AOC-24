@@ -9,7 +9,7 @@ const __dirname = path.dirname(__filename);
 function main() {
     try {
         // Constructing the file path
-        const filePath = path.join(__dirname, 'input2.txt');
+        const filePath = path.join(__dirname, 'input.txt');
 
         // Reading the file
         let data = readFileSync(filePath, 'utf8');
